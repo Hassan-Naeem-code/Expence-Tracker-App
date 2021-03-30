@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #24C6DC 0%, #514A9D 100%);
+}
+.bg-common{
+    background: linear-gradient(to right, #24C6DC 0%, #514A9D 100%);
+}
+.max-width{
+    max-width: 400px !important;
+    background: white;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.w-20{
+    width: 20%;
+}
+.font-9{
+    font-size: 9px !important;
+}
+.font-10{
+    font-size: 10px !important;
+}
+.font-11{
+    font-size: 11px !important;
+}
+.font-12{
+    font-size: 12px !important;
+}
+.font-13{
+    font-size: 13px !important;
+}
+.font-14{
+    font-size: 14px !important;
+}
+.font-15{
+    font-size: 15px !important;
+}
+.font-16{
+    font-size: 16px !important;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-22{
+    font-size: 22px;
+}
+.font-30{
+    font-size: 30px;
+}
+.color-black{
+    color: black;
+}
+.color-white{
+    color: whitesmoke;
+}
+.color-yellow{
+    color: rgb(255, 158, 1);
+}
+.font-bold{
+    font-weight: 900;
+}
+.font-600{
+    font-weight: 600;
+}
+.font-700{
+    font-weight: 700;
+}
+.m-t-10{
+    margin-top: 10px;
+}
+.font-color-heading{
+    color: #514A9D;
+}
+.font-color-sub-heading{
+    color: #24C6DC;
+}
+.border-left{
+    border-left: 1px solid white;
+}
+.border-right{
+    border-right: 1px solid white;
+}
+.color-white{
+    color: white;
+}
+.bg-white{
+    background: #514A9D !important;
+}
+.mobile-show{
+    display: none;
+}
+.bg-white-new{
+    background: white !important;
+    height: 3px;
+}
+.text-right-common{
+    text-align: right;
+}
+.padding-border-right-positive{
+    padding-top: 5px;
+    border-right: 3px solid coral;
+}
+.padding-border-right-negative{
+    padding-top: 5px;
+    border-right: 3px solid red;
+}
+.hover-effect{
+    width: 85%;
+}
+.hover-effect:hover{
+    transition: .5s ease;
+    cursor: pointer;
+    width: 77%;
+}
+.hover:hover .hover-effect{
+    transition: .5s ease;
+    cursor: pointer;
+    width: 77%;
+}
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+    top: 0;
+    right: 35px;
+}
+.pos-abs svg{
+    visibility: hidden;
+}
+.hover:hover .pos-abs svg{
+    transition: .5s ease;
+    visibility: visible;
+}
+.cursor{
+    cursor: pointer;
+}
+
+@media (max-width:550px){
+    .max-width{
+        max-width: 300px !important;
+    }
+    .mobile-center{
+        text-align: center;
+    }
+    .mobile-show{
+        display: block;
+    }
+}
