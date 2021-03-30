@@ -13,8 +13,7 @@ const Balance = () => {
   return (
     <React.Fragment>
       <div className="row">
-        <div className="col-md-1"></div>
-        <div className="col-12 col-xs-12 col-sm-12 col-md-11 col-lg-11 mobile-center">
+        <div className="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 mobile-center">
           <h6 className="font-12 font-700">YOUR BALANCE</h6>
           <h6 className="font-12 font-700">${total}</h6>
         </div>
